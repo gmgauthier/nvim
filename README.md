@@ -14,7 +14,7 @@ Homebrew is already on the work laptop. Install Neovim and the two binaries Astr
 brew install neovim ripgrep fd git
 ```
 
-You need **Neovim 0.10+** (AstroNvim v6). Confirm with `nvim --version`.
+You need **Neovim 0.11+** (AstroNvim v6 dropped 0.10). Plato runs **0.12.4**; prefer 0.12 if Homebrew has it. Confirm with `nvim --version`. If you still have 0.10: `brew upgrade neovim`.
 
 Xcode Command Line Tools should already be present (clang/Go/Python stack). If treesitter or Mason fails to compile something later:
 
