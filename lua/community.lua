@@ -20,4 +20,7 @@ return {
   -- Git (JetBrains-ish status/diff workflow)
   { import = "astrocommunity.git.neogit" },
   { import = "astrocommunity.git.diffview-nvim" },
+
+  -- Tests (Python pack already registers neotest-python when this is present)
+  { import = "astrocommunity.test.neotest" },
 }
