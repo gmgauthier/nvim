@@ -9,6 +9,7 @@ return {
   -- Language packs
   { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.golangci-lint" },
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.lua" },
 
